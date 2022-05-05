@@ -1,0 +1,35 @@
+@import url(https://ux.ed.team/css/styles.css?201803301710);
+
+.contend_cupcakes{
+    display: flex;
+    flex-wrap: wrap;
+    gap: 2em;
+}
+.contend_cupcake{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    padding: 1em;
+    box-shadow: 0px 0px 10px 0px rgba(0, 0, 0, 0.349);
+}
+
+.img_cup{
+    width: 15em;
+    height: 15em;
+}
+
+.description_cupcake{
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    font-size: 1.2em;
+}
+
+.color_cupcake{
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    color: tomato;
+}
+
+.precio_cupcake{
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    color: blueviolet;
+}

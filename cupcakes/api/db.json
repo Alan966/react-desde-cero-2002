@@ -1,0 +1,70 @@
+{
+    "cupcakes":[
+        {
+            "sabor":"Chocolate",
+            "id": 1,
+            "color": "marron", 
+            "descripcion": "Gran cupcake sabor vainilla clasica", 
+            "precio": 10, 
+            "img":"https://www.hola.com/imagenes/cocina/recetas/20190910149038/cupcakes-chocolate-caramelo/0-717-246/cupcake-caramel-m.jpg"
+        }, 
+        {
+            "sabor":"Vainilla",
+            "id": 2,
+            "color": "amarillo", 
+            "descripcion": "Gran cupcake sabor vainilla clasica", 
+            "precio": 15, 
+            "img":"https://images.unsplash.com/photo-1599785209707-a456fc1337bb?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxzZWFyY2h8Nnx8Y3VwY2FrZXN8ZW58MHx8MHx8&w=1000&q=80"
+        }, 
+        {
+            "sabor":"Fresa",
+            "id": 3,
+            "color": "rojo", 
+            "descripcion": "Gran cupcake sabor vainilla clasica", 
+            "precio": 20, 
+            "img":"https://i.pinimg.com/originals/b3/1e/a2/b31ea2a100975d796f64f36d0baf66fd.jpg"
+        },
+        {
+            "sabor":"Chocolate",
+            "id": 4,
+            "color": "marron", 
+            "descripcion": "Gran cupcake sabor vainilla clasica", 
+            "precio": 10, 
+            "img":"https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRdRw47Nj7rEbzmv85aJtZR88p4B1sdBrAZBsGf47mm2GwNXOuNP9Ho13-F8mhLj4GGRWs&usqp=CAU"
+        }, 
+        {
+            "sabor":"Vainilla",
+            "id": 5,
+            "color": "amarillo", 
+            "descripcion": "Gran cupcake sabor vainilla clasica", 
+            "precio": 15, 
+            "img":"https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQQoXVl4tc8W_PyZ74u_0PnxkAkWBkay3kNpzkdbLhG8SyVpjNglnsCLOSHLeDbFLjPCPM&usqp=CAU"
+        }, 
+        {
+            "sabor":"Fresa",
+            "id": 6,
+            "color": "rojo", 
+            "descripcion": "Gran cupcake sabor vainilla clasica", 
+            "precio": 20, 
+            "img":"https://5.imimg.com/data5/GH/LG/MY-39025286/dark-chocolate-cupcake-500x500.jpg"
+        }
+    ], 
+    "servicios": [
+        {
+            "nombre": "Curso de reposteria", 
+            "descripcion": "Este es un curso desde cero que te enseña a hacer cupcakes y pasteles"
+        },
+        {
+            "nombre": "Delivery a toda la ciudad", 
+            "descripcion": "Pide desde donde quieras y los cupcakes llegaran a tu casa"
+        }, 
+        {
+            "nombre": "Curso de reposteria", 
+            "descripcion": "Este es un curso desde cero que te enseña a hacer cupcakes y pasteles"
+        },
+        {
+            "nombre": "Delivery a toda la ciudad", 
+            "descripcion": "Pide desde donde quieras y los cupcakes llegaran a tu casa"
+        }
+    ]
+}
