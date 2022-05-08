@@ -1,7 +1,8 @@
 import Cupcake from "../cards/cupcakes";
 import useFetch from "../hooks/useFetch";
+import { connect } from "react-redux"
 
-const Cupcakes = ({url, title}) => {
+const Cupcakes = ({url, title, courses}) => {
 
     const [data , error]= useFetch(url)
 
@@ -21,7 +22,7 @@ const Cupcakes = ({url, title}) => {
                         color={ color}
                         precio={ precio}
                         descripcion={ descripcion}
-                        key={id}
+                        id={id}
                        />
                    )
                }) :
@@ -32,4 +33,8 @@ const Cupcakes = ({url, title}) => {
    )
 }
 
-export default Cupcakes;
+const mapStateToProps = state => ({
+    courses: state.cartReducer.courses
+})
+
+export default connect(mapStateToProps, {})(Cupcakes)
