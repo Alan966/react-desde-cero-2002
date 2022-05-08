@@ -8,7 +8,7 @@ const initialStore = {
 }
 
 const initialCourses = {
-    Courses: []
+    courses: []
 }
 
 const cartReducer = (state = initialStore, { type, id}) => {
@@ -36,12 +36,11 @@ const cartReducer = (state = initialStore, { type, id}) => {
 const coursesReducer = (state = initialCourses , action) => {
 
     if(action.type === GET_COURSE_LIST){
-        return {
+        return{
             ...state, 
-            Courses: action.Courses
+            courses: action.courses
         }
     }
-
     return state
 }
 

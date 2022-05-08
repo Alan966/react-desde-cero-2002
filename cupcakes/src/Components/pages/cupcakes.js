@@ -34,7 +34,7 @@ const Cupcakes = ({url, title, courses}) => {
 }
 
 const mapStateToProps = state => ({
-    courses: state.cartReducer.courses
+    courses: state.coursesReducer.courses
 })
 
 export default connect(mapStateToProps, {})(Cupcakes)

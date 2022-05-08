@@ -16,7 +16,7 @@ const getCourseList = () => dispatch => {
     .then(response => {
         return dispatch({
             type: GET_COURSE_LIST, 
-            Courses: response.data
+            courses: response.data
         })
     })
 }
