@@ -21,7 +21,6 @@ const Home = () => {
       </div>
     </div>
     <Cupcakes 
-    url={"http://localhost:5000/cupcakes?sabor_like=Fresa"}
     title={"Cupcakes de Fresa"}
     />
     <Servicios 

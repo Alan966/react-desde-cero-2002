@@ -7,11 +7,13 @@ import {
   Routes,
   Route
 } from "react-router-dom";
+import CoursesProvider from "./Components/Context/coursesProvider";
 
 
 const AppRedux = ()  =>{
   return (
-    <BrowserRouter>
+    <CoursesProvider>
+      <BrowserRouter>
       <Header />
         <Routes>
           <Route path="/" element={<Home/>} />
@@ -22,6 +24,7 @@ const AppRedux = ()  =>{
           <Route path="/nosotros" element={<AboutUs/>} />
         </Routes>
     </BrowserRouter>
+    </CoursesProvider>
   );
 }
 
