@@ -1,5 +1,6 @@
 import { NavLink } from "react-router-dom";
-import CartCounter from "../Atoms/CartCounter";
+import CartCounter from "../Moleculas/CartCounter";
+// import CartCounter from "../Atoms/CartCounter";
 
 const Header = () => {
     return(
@@ -18,7 +19,8 @@ const Header = () => {
                 <li><NavLink to="/" exact>Inicio</NavLink></li>
                 <li><NavLink to="/cupcakes" exact >Cupcakes</NavLink></li>
                 <li><NavLink to="/nosotros" exact >Nosotros</NavLink></li>
-                <CartCounter />
+                {/* <CartCounter /> */}
+                <li><CartCounter /></li>
               </ul>
             </nav>
             <div className="main-menu-toggle to-l" id="main-menu-toggle"></div>
