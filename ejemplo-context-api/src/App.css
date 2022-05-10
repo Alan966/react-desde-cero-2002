@@ -1,0 +1,24 @@
+.group_member{
+display: grid;
+grid-template-columns: 1fr 1fr;
+justify-content: space-between;
+width: 40%;
+align-items: center;
+}
+
+.group_name{
+  text-align: center;
+  font-size: 1rem;
+  font-weight: bold;
+  font-family: 'Courier New', Courier, monospace;
+}
+
+.group_delete{
+  text-align: center;
+  color: white;
+  background-color: red;
+  padding: 1em;
+  margin: 1em;
+  border-radius: 5px;
+  border: 2px solid black;
+}
