@@ -7,4 +7,4 @@ const {
 module.exports = override(
     addDecoratorsLegacy(),
     disableEsLint()
-)
+); 

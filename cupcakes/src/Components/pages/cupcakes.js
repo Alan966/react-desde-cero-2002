@@ -1,4 +1,4 @@
-import { connect } from "react-redux"
+// import { connect } from "react-redux"
 import ConjuntoDeCupcakes from "../Moleculas/conjuntoCupcakes";
 
 const Cupcakes = ({ title, courses}) => {
@@ -19,8 +19,10 @@ const Cupcakes = ({ title, courses}) => {
    )
 }
 
-const mapStateToProps = state => ({
-    courses: state.coursesReducer.courses
-})
+// const mapStateToProps = state => ({
+//     courses: state.coursesReducer.courses
+// })
 
-export default connect(mapStateToProps, {})(Cupcakes)
+// export default connect(mapStateToProps, {})(Cupcakes)
+
+export default Cupcakes;
